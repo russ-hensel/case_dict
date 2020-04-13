@@ -24,6 +24,10 @@ examples are:
     ex_buttons_with_builder_class()
 
     with a bunch of helper functions used by some of the examples
+
+( copy of code should be found at: https://github.com/russ-hensel/case_dict
+  with some discussion at:         http://www.opencircuits.com/Python_Button_Dictionary_Case_Statement )
+
 """
 
 import  tkinter as Tk
@@ -115,13 +119,13 @@ def ex_buttons_with_attributes_in_grid():
     root = Tk.Tk()
     root.title( "ex_buttons_with_attributes_in_grid()" )
     parent_frame   = root   # in this case
- 
+
     ix_row   = 0
     ix_col   = -1
 
     # --------------
     ix_col          += 1
-    txt              = "Button 1"    # text for button label 
+    txt              = "Button 1"    # text for button label
     cb_for_button    = cb_1
 
     a_button = Tk.Button( parent_frame , width=10, height=2, text = txt )
@@ -306,4 +310,4 @@ def ex_buttons_with_builder_class():
 ex_buttons_with_builder_class()
 
 
- 
+
